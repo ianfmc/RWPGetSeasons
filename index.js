@@ -11,7 +11,7 @@ exports.handler = function(event, context, callback) {
     	if (err) {
     		callback(err);
     	}
-    	else (err) {
+    	else {
     		callback(null, data);
     	}
     });
