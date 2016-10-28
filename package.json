@@ -1,0 +1,32 @@
+{
+  "name": "rwpgetseasons",
+  "version": "1.0.0",
+  "description": "Lamdba Function to get all RWP Seasons from DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./spec/get.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianfmc/RWPGetSeasons.git"
+  },
+  "keywords": [
+    "RWP",
+    "DynamoDB",
+    "Get",
+    "Seasons"
+  ],
+  "author": "Ian F. McCallum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianfmc/RWPSeasonsTeams/issues"
+  },
+  "homepage": "https://github.com/ianfmc/RWPSeasonsTeams#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.6.11",
+    "aws-sdk-mock": "^1.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  }
+}
